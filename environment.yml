@@ -3,7 +3,6 @@ channels:
   - conda-forge
 dependencies:
   - python=3.10
-  - tensorflow
   - jupyterlab
   - numpy
   - pandas
@@ -11,5 +10,6 @@ dependencies:
   - ipykernel
   - pip
   - pip:
+    - tensorflow[and-cuda]
     - seaborn
     - scikit-learn
